@@ -12,7 +12,8 @@
         "orchestra/installer": "~3.3",
         "orchestra/control": "~3.3",
         "katsana/katsana-sdk-php": "~0.1",
-        "php-http/guzzle6-adapter": "^1.1"
+        "php-http/guzzle6-adapter": "^1.1",
+        "katsana/socialite": "dev-master"
     },
     "require-dev": {
         "orchestra/studio": "~3.3",
