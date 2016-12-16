@@ -1,0 +1,36 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+hostname: roadtrip
+name: roadtrip
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: ~/Code
+      to: /home/vagrant/Code
+
+sites:
+    - map: roadtrip.app
+      to: /home/vagrant/Code/Laravel/public
+
+databases:
+    - roadtrip
+
+# blackfire:
+#     - id: foo
+#       token: bar
+#       client-id: foo
+#       client-token: bar
+
+# ports:
+#     - send: 50000
+#       to: 5000
+#     - send: 7777
+#       to: 777
+#       protocol: udp

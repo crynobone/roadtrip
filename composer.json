@@ -14,7 +14,8 @@
     },
     "require-dev": {
         "orchestra/studio": "~3.3",
-        "orchestra/testing": "~3.3"
+        "orchestra/testing": "~3.3",
+        "laravel/homestead": "^4.0"
     },
     "autoload": {
         "classmap": [
