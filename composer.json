@@ -10,7 +10,9 @@
         "orchestra/foundation": "~3.3.0",
         "orchestra/avatar": "~3.3",
         "orchestra/installer": "~3.3",
-        "orchestra/control": "~3.3"
+        "orchestra/control": "~3.3",
+        "katsana/katsana-sdk-php": "~0.1",
+        "php-http/guzzle6-adapter": "^1.1"
     },
     "require-dev": {
         "orchestra/studio": "~3.3",
